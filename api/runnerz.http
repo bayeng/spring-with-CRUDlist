@@ -1,0 +1,18 @@
+###
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+
+{
+  "id": 12,
+  "title": "percobaan pertama",
+  "startedOn": "2022-01-01T01:00:00",
+  "completedOn": "2022-01-02T05:00:00",
+  "miles": 100,
+  "location": "OUTDOOR"
+}
+
+###
+GET localhost:8080/api/runs
+
+###
+GET localhost:8080/api/location/OUTDOOR
